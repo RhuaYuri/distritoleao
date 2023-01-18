@@ -67,7 +67,7 @@ a#scrollUp i{
 *******Header CSS******
 **************************/
 .header-middle{
-  background-color: rgb(34, 47, 84);
+  background-color: #000;
 }
 .header_top {
   background: none repeat scroll 0 0 #F0F0E9;
@@ -117,7 +117,9 @@ a#scrollUp i{
   -o-transition: all 0.9s ease 0s;
 }
 
-
+.fa-plus{
+  color: #fff;
+}
 .fa-facebook:hover {
   background: #0083C9;
 }
@@ -200,7 +202,7 @@ a#scrollUp i{
 
 
 .shop-menu ul li a {
-  background: #222f54;
+  background: #000;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -241,7 +243,7 @@ a#scrollUp i{
 }
 
 .mainmenu ul li a {
-	color: #696763;
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
@@ -251,7 +253,7 @@ a#scrollUp i{
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
 	background:none;
-	color:#fdb45e;
+	color:#f8911d;
 }
 
 .search_box input {
@@ -598,7 +600,7 @@ ul.sub-menu {
 }
 
 .item h1 {
-  color: #B4B1AB;
+  color: #ffffff;
   font-family: abel;
   font-size: 48px;
   margin-top: 115px;
@@ -609,7 +611,7 @@ ul.sub-menu {
 }
 
 .item h2 {
-  color: #363432;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -618,7 +620,7 @@ ul.sub-menu {
 }
 
 .item  p {
-	color:#363432;
+	color:#ffffff;
 	font-size:16px;
 	font-weight:300;
 	font-family: 'Roboto', sans-serif;
@@ -662,7 +664,7 @@ ul.sub-menu {
   padding-top: 15px;
 }
 .left-sidebar h2, .brands_products h2 {
-  color: #FE980F;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -687,7 +689,7 @@ ul.sub-menu {
 .left-sidebar h2:before{
 	content: " ";
 	position: absolute;
-	background: #fff;
+	background: #FE980F;
 	bottom: -6px;
 	width: 130px;
 	height: 30px;
@@ -717,14 +719,14 @@ h2.title:before{
 }
 
 .category-products .panel-default .panel-heading {
-  background-color: #FFFFFF;
+  background-color: #CD7F32;
   border: 0 none;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 5px 20px;
 }
 
 .category-products .panel-default .panel-heading .panel-title a {
-  color: #696763;
+  color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   text-decoration: none;
@@ -733,6 +735,7 @@ h2.title:before{
 
 .panel-group .panel-heading + .panel-collapse .panel-body {
   border-top: 0 none;
+  background-color: rgb(77, 117, 174);
 }
 
 .category-products .badge {
@@ -756,7 +759,7 @@ h2.title:before{
 
 
 .panel-body ul li a {
-  color: #696763;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -770,8 +773,8 @@ h2.title:before{
 
 
 .brands-name .nav-stacked li a {
-  background-color: #FFFFFF;
-  color: #696763;
+  background-color: #CD7F32;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   padding: 5px 25px;
@@ -870,7 +873,7 @@ h2.title {
 	font-weight: 700;
 }
 .product-overlay h2{
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
@@ -1232,7 +1235,7 @@ h2.title {
 }
 
 .product-information h2 {
-  color: #363432;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin-top: 0;
